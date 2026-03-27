@@ -1,5 +1,10 @@
 # Single-Cell Intelligence Agent
 
+
+![Architecture Infographic](docs/images/infographic.jpg)
+
+*Source: [single-cell-intelligence-agent](https://github.com/ajones1923/single-cell-intelligence-agent)*
+
 RAG-powered single-cell genomics clinical decision support agent for the HCLS AI Factory.
 
 ## Features
