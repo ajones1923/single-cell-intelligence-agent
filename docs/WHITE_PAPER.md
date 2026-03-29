@@ -292,4 +292,4 @@ The resolution gap in precision medicine is not a data problem -- it is an inter
 
 ---
 
-*HCLS AI Factory -- Single-Cell Intelligence Agent White Paper v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent White Paper v1.3.0*

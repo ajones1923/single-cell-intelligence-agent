@@ -357,4 +357,4 @@ All queries use HTTP REST with 30-second timeout and graceful degradation.
 
 ---
 
-*HCLS AI Factory -- Single-Cell Intelligence Agent Project Bible v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent Project Bible v1.3.0*

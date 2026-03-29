@@ -595,4 +595,4 @@ For CONDITIONAL targets, the agent recommends:
 
 ---
 
-*HCLS AI Factory -- Single-Cell Intelligence Agent Learning Guide: Advanced Topics v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent Learning Guide: Advanced Topics v1.3.0*

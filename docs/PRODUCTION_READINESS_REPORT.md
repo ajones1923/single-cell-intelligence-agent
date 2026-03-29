@@ -1636,4 +1636,4 @@ The following must be addressed before production deployment:
 ---
 
 *Report generated: 2026-03-22*
-*HCLS AI Factory -- Single-Cell Intelligence Agent v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent v1.3.0*

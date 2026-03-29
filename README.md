@@ -92,4 +92,8 @@ streamlit run app/sc_ui.py --server.port 8130
 
 ## Author
 
-Adam Jones -- March 2026
+Adam Jones -- HCLS AI Factory, March 2026
+
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE).

@@ -369,4 +369,4 @@ docker compose logs -f sc-setup
 
 ---
 
-*HCLS AI Factory -- Single-Cell Intelligence Agent Deployment Guide v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent Deployment Guide v1.3.0*

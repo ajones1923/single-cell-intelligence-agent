@@ -558,4 +558,4 @@ docker-compose.dgx-spark.yml (top-level)
 
 ---
 
-*HCLS AI Factory -- Single-Cell Intelligence Agent Architecture Guide v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent Architecture Guide v1.3.0*

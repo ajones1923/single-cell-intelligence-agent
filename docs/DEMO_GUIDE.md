@@ -330,4 +330,4 @@ Direct attendees to `http://localhost:8540/docs` for interactive Swagger documen
 
 ---
 
-*HCLS AI Factory -- Single-Cell Intelligence Agent Demo Guide v1.0.0*
+*HCLS AI Factory -- Single-Cell Intelligence Agent Demo Guide v1.3.0*
