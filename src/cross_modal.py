@@ -21,7 +21,7 @@ Date: March 2026
 from __future__ import annotations
 
 import logging
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 from config.settings import settings
 
@@ -258,7 +258,7 @@ def query_imaging_agent(
     try:
         import requests
 
-        niches = spatial_data.get("niches", [])
+        spatial_data.get("niches", [])
         platform = spatial_data.get("platform", "unknown")
 
         response = requests.post(

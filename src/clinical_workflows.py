@@ -416,9 +416,9 @@ class TMEProfilingWorkflow(BaseSCWorkflow):
                         "Dendritic", "Plasma", "Neutrophil"}
         total_immune = sum(props.get(ct, 0.0) for ct in immune_types)
         cd8_pct = props.get("CD8_T", 0.0)
-        treg_pct = props.get("Treg", 0.0)
-        m2_pct = props.get("Macrophage_M2", 0.0)
-        mdsc_pct = props.get("MDSC", 0.0)
+        props.get("Treg", 0.0)
+        props.get("Macrophage_M2", 0.0)
+        props.get("MDSC", 0.0)
         immune_score = _clamp(total_immune)
 
         # --- Stromal density ---
@@ -699,7 +699,7 @@ class SubclonalArchitectureWorkflow(BaseSCWorkflow):
         clone_list = inputs.get("clone_data", [])
         total_cells = inputs.get("total_cells", 0)
         target = inputs.get("target_antigen", "CD19")
-        mut_corr = inputs.get("mutation_expression_corr", {})
+        inputs.get("mutation_expression_corr", {})
 
         subclones: List[SubclonalResult] = []
 
@@ -1008,7 +1008,7 @@ class TrajectoryAnalysisWorkflow(BaseSCWorkflow):
         cell_types = inputs.get("cell_types", {})
         gene_expr = inputs.get("gene_expression", {})
         branches = inputs.get("branch_assignments")
-        root_type = inputs.get("root_cell_type")
+        inputs.get("root_cell_type")
         driver_candidates = inputs.get("driver_gene_candidates")
         traj_type_str = inputs.get("trajectory_type", "differentiation")
 
@@ -1392,7 +1392,7 @@ class CARTTargetValidationWorkflow(BaseSCWorkflow):
         tumor_expr = inputs.get("tumor_expression", {})
         tumor_ids = set(inputs.get("tumor_cell_ids", []))
         normal_expr = inputs.get("normal_tissue_expression", {})
-        tme_data = inputs.get("tme_data", {})
+        inputs.get("tme_data", {})
         clone_data = inputs.get("clone_data")
 
         # --- On-tumour expression ---
@@ -1422,7 +1422,7 @@ class CARTTargetValidationWorkflow(BaseSCWorkflow):
             max_off_tumor = max(max_off_tumor, organ_expr)
 
         # Therapeutic index
-        therapeutic_index = _safe_div(mean_expr, max_off_tumor + 0.01)
+        _safe_div(mean_expr, max_off_tumor + 0.01)
 
         # Off-tumor risk classification
         if vital_hits:
@@ -1524,7 +1524,7 @@ class TreatmentMonitoringWorkflow(BaseSCWorkflow):
 
     def execute(self, inputs: dict) -> WorkflowResult:
         timepoints = inputs.get("timepoints", [])
-        target = inputs.get("target_antigen", "CD19")
+        inputs.get("target_antigen", "CD19")
         treatment = inputs.get("treatment_type", "car_t")
         baseline_resp = inputs.get("baseline_response")
 

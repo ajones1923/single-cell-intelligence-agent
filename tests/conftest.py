@@ -3,7 +3,6 @@
 import sys
 from pathlib import Path
 
-import pytest
 
 # ---------------------------------------------------------------------------
 # Ensure the project root is on sys.path so that imports like

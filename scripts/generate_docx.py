@@ -37,7 +37,7 @@ def generate_report(output_path: str = "single_cell_agent_report.docx"):
         return
 
     from src.ingest.cellxgene_parser import get_cell_type_count, get_cell_lineages
-    from src.ingest.marker_parser import get_marker_count, get_marker_sources
+    from src.ingest.marker_parser import get_marker_count
     from src.ingest.tme_parser import get_tme_profile_count, get_cancer_types
     from src.models import SCWorkflowType
 

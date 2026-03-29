@@ -52,13 +52,12 @@ import threading
 from collections import defaultdict
 from contextlib import asynccontextmanager
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List
 
 from fastapi import FastAPI, HTTPException, Request
 from loguru import logger
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, PlainTextResponse
-from pydantic import BaseModel, Field
 
 # =====================================================================
 # Path setup -- ensure project root is importable

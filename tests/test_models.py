@@ -12,7 +12,6 @@ Author: Adam Jones
 Date: March 2026
 """
 
-import pytest
 
 from src.models import (
     AssayType,
@@ -23,23 +22,18 @@ from src.models import (
     ClusteringMethod,
     DrugResponsePrediction,
     EvidenceLevel,
-    LigandReceptorInteraction,
     NormalizationMethod,
     ResistanceRisk,
     SCQuery,
     SCResponse,
-    SCSearchResult,
     SCWorkflowType,
     SearchPlan,
     SeverityLevel,
-    SpatialNiche,
     SpatialPlatform,
-    SubclonalResult,
     TMEClass,
     TMEProfile,
     TrajectoryResult,
     TrajectoryType,
-    TreatmentResponse,
     WorkflowResult,
 )
 

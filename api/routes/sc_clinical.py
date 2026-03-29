@@ -10,20 +10,12 @@ Author: Adam Jones
 Date: March 2026
 """
 
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from fastapi import APIRouter, HTTPException, Request
 from loguru import logger
 from pydantic import BaseModel, Field
 
-from src.models import (
-    SCWorkflowType,
-    SeverityLevel,
-    TMEClass,
-    CellTypeConfidence,
-    SpatialPlatform,
-    ResistanceRisk,
-)
 from src.knowledge import (
     KNOWLEDGE_VERSION,
     CELL_TYPE_ATLAS,

@@ -13,7 +13,6 @@ from src.collections import (
     WORKFLOW_COLLECTION_WEIGHTS,
     get_all_collection_names,
     get_collection_config,
-    get_search_weights,
 )
 from src.models import SCWorkflowType
 

@@ -6,7 +6,6 @@ Author: Adam Jones
 Date: March 2026
 """
 
-import pytest
 
 from src.models import (
     CARTTargetValidation,

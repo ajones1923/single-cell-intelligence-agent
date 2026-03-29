@@ -14,12 +14,11 @@ import json
 import time
 from collections import deque
 from datetime import datetime, timezone
-from typing import AsyncGenerator, Dict, List, Optional
+from typing import AsyncGenerator, List, Optional
 
-from fastapi import APIRouter, HTTPException, Query, Request
+from fastapi import APIRouter, Query, Request
 from fastapi.responses import StreamingResponse
 from loguru import logger
-from pydantic import BaseModel
 
 router = APIRouter(prefix="/v1/events", tags=["events"])
 

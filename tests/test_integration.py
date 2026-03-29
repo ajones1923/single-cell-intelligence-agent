@@ -7,23 +7,14 @@ Author: Adam Jones
 Date: March 2026
 """
 
-import pytest
 
 from src.models import (
     SCWorkflowType,
-    SeverityLevel,
     WorkflowResult,
     CellTypeAnnotation,
     CellTypeConfidence,
 )
-from src.knowledge import (
-    CELL_TYPE_ATLAS,
-    KNOWLEDGE_VERSION,
-    TME_PROFILES,
-    SPATIAL_PLATFORMS,
-)
 from src.collections import (
-    ALL_COLLECTIONS,
     WORKFLOW_COLLECTION_WEIGHTS,
     get_all_collection_names,
 )
@@ -31,7 +22,7 @@ from src.metrics import MetricsCollector, get_metrics_text
 from src.export import SCReportExporter, VERSION
 from src.ingest.cellxgene_parser import CELL_TYPE_RECORDS, get_cell_type_count
 from src.ingest.marker_parser import MARKER_GENE_RECORDS, get_marker_count
-from src.ingest.tme_parser import TME_PROFILES as TME_INGEST_PROFILES, get_tme_profile_count
+from src.ingest.tme_parser import get_tme_profile_count
 from config.settings import settings
 
 

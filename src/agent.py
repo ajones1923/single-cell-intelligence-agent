@@ -1944,7 +1944,7 @@ class SingleCellAgent:
 
         condition_label = plan.conditions[0] if plan.conditions else "the tissue/condition"
         cell_type_label = plan.cell_types[0] if plan.cell_types else "the cell population"
-        biomarker_label = plan.biomarkers[0] if plan.biomarkers else "the biomarker"
+        plan.biomarkers[0] if plan.biomarkers else "the biomarker"
 
         primary_wf = (
             plan.relevant_workflows[0] if plan.relevant_workflows
@@ -1964,7 +1964,7 @@ class SingleCellAgent:
         elif primary_wf == SCWorkflowType.TME_CLASSIFICATION:
             sub_questions = [
                 f"What immune cell composition defines the TME subtype in {condition_label}?",
-                f"What gene signatures distinguish hot, cold, excluded, and immunosuppressive TME?",
+                "What gene signatures distinguish hot, cold, excluded, and immunosuppressive TME?",
                 f"What spatial patterns characterize immune infiltration in {condition_label}?",
                 f"What are the immunotherapy response implications of TME classification in {condition_label}?",
             ]

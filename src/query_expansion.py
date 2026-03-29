@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import logging
 import re
-from typing import Any, Dict, List, Optional, Set
+from typing import Dict, List, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -284,7 +284,6 @@ ENTITY_ALIASES: Dict[str, str] = {
     "gdT": "gamma-delta T cell",
     "Vd1": "Vdelta1 gamma-delta T cell",
     "Vd2": "Vgamma9Vdelta2 gamma-delta T cell",
-    "ILCs": "innate lymphoid cells",
     "MAITs": "mucosal-associated invariant T cells",
 
     # -- Additional database / resource abbreviations (new keys) --
